@@ -29,19 +29,8 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais.
 
 ## Requisitos
-- Python 3+
-- Ferramentas para modelagem de autômatos
-
-## Execução
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/controle-robos-armazem.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd controle-robos-armazem
-   ```
-3. Execute os arquivos conforme documentado na seção de implementação.
+- Ferramentas para modelagem de autômatos, Supremica foi utilizado nesse caso
+- Java | Oracle
 
 ## Apresentação do Projeto
 Assista à apresentação do projeto no YouTube: [Link para o vídeo]
