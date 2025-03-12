@@ -36,7 +36,7 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 - Gerencia os `requests`, `moves`, falhas e ativações do robô reserva.
 - Garante que cada robô atenda apenas suas máquinas designadas (R1 → M1 e M2; R2 → M3 e M4).
 
-![Supervisório](Supervisorio_SED)
+![Supervisório](Supervisorio_SED.png)
 ## Implementação
 A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais.
 
