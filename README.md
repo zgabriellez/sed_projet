@@ -19,11 +19,20 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 - **4 Máquinas (M1, M2, M3, M4):** Recebem os insumos e processam as cargas.
 - **Buffer de Entrada (BE):** Local onde os robôs coletam os insumos antes da entrega.
 
-### Funcionamento
-1. Uma máquina solicita um insumo.
-2. O sistema aloca um robô disponível para transportar a carga.
-3. O robô coleta o insumo no BE e o leva à máquina solicitante.
-4. Em caso de falha de R1 ou R2, o robô R3 assume a tarefa.
+## Funcionamento do Sistema
+
+### **Autômatos de Robôs**
+- **R1 e R2**: Ficam em repouso até receberem um `request` de uma máquina. Após isso, fazem o `move` para carregar a caixa do BE até a máquina solicitante. Ao chegar, realizam o `unload` e retornam ao BE.
+- **R3 (Robô Reserva)**: Ativado quando há falha em R1 ou R2. Assume o `move` e completa a tarefa pendente.
+
+### **Autômatos das Máquinas**
+- Cada máquina começa no estado de repouso e pode fazer um `request` por insumos.
+- Caso o robô associado falhe, a máquina pode acionar o robô reserva (R3).
+
+### **Supervisor**
+- Coordena as interações entre os autômatos.
+- Gerencia os `requests`, `moves`, falhas e ativações do robô reserva.
+- Garante que cada robô atenda apenas suas máquinas designadas (R1 → M1 e M2; R2 → M3 e M4).
 
 ## Implementação
 A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais.
