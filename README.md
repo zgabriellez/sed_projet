@@ -48,7 +48,7 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 ## Implementação
 A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais. 
 #### **Supervisório e Robô 3**
-![Supervisório e Robô 3](R3_e_supervisório.png)
+![Supervisório e Robô 3](R3_e_supervisorio.png)
 
 ## Requisitos
 - Ferramentas para modelagem de autômatos, Supremica foi utilizado nesse caso
