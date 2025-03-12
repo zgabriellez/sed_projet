@@ -24,6 +24,7 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 ### **Autômatos de Robôs**
 - **R1 e R2**: Ficam em repouso até receberem um `request` de uma máquina. Após isso, fazem o `move` para carregar a caixa do BE até a máquina solicitante. Ao chegar, realizam o `unload` e retornam ao BE.
 - **R3 (Robô Reserva)**: Ativado quando há falha em R1 ou R2. Assume o `move` e completa a tarefa pendente.
+![Automatos dos Robôs 1, 2 e 3](images/Robos.png)
 
 ### **Autômatos das Máquinas**
 - Cada máquina começa no estado de repouso e pode fazer um `request` por insumos.
