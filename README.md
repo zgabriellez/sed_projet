@@ -30,7 +30,14 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 ### **Autômatos das Máquinas**
 - Cada máquina começa no estado de repouso e pode fazer um `request` por insumos.
 - Caso o robô associado falhe, a máquina pode acionar o robô reserva (R3).
+- Nas figuras abaixo, podemos ver a interação entre os robôs 1, 2 e 3 e as máquinas.
 
+#### **Robô 1 e Máquinas 1 e 2**
+![](R1emaquinas.png)
+#### **Robô 2 e Máquinas 3 e 4**
+![Automatos dos Robôs 1, 2 e 3](Robos.png)
+#### **Robô 3 e Máquinas 1 e 2 ou Máquinas 3 e 4**
+![Automatos dos Robôs 1, 2 e 3](Robos.png)
 ### **Supervisor**
 - Coordena as interações entre os autômatos.
 - Gerencia os `requests`, `moves`, falhas e ativações do robô reserva.
@@ -38,7 +45,7 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 
 ![Supervisório](Supervisorio_SED.png)
 ## Implementação
-A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais.
+A implementação do sistema foi realizada utilizando **autômatos finitos** para modelagem do comportamento dos robôs e das máquinas, além de um **supervisor** para gerenciar as transições de estado e as falhas eventuais. 
 
 ## Requisitos
 - Ferramentas para modelagem de autômatos, Supremica foi utilizado nesse caso
