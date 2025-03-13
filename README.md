@@ -18,6 +18,7 @@ O projeto tem como objetivo desenvolver um sistema de controle supervisionado pa
 - **3 Robôs (R1, R2, R3):** Transportam caixas do Buffer de Entrada (BE) para as máquinas de processamento.
 - **4 Máquinas (M1, M2, M3, M4):** Recebem os insumos e processam as cargas.
 - **Buffer de Entrada (BE):** Local onde os robôs coletam os insumos antes da entrega.
+![Automatos dos Robôs 1, 2 e 3](Ilustracao_PROJETO_SED.png)
 
 ## Funcionamento do Sistema
 
