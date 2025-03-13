@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Module xmlns="http://waters.sourceforge.net/xsd/module" xmlns:B="http://waters.sourceforge.net/xsd/base" Name="testes">
+<B:Comment>supervisor min(sup(BE||m1_automata||m2_automata||m3_automata||m4_automata)) {
+  BLOCKED {
+    :accepting
+  }
+  NODES {
+    initial S0.S0.S0.S0.S0 {
+      :forbidden
+    }
+    S0.S0.S0.S0.S2 {
+      :forbidden
+    }
+    S0.S0.S0.S2.S0 {
+      :forbidden
+    }
+    S0.S0.S0.S2.S2 {
+      :forbidden
+    }
+    S0.S0.S2.S0.S0 {
+      :forbidden
+    }
+    S0.S0.S2.S0.S2 {
+      :forbidden
+    }
+    S0.S0.S2.S2.S0 {
+      :forbidden
+    }
+    S0.S0.S2.S2.S2 {
+      :forbidden
+    }
+    S0.S2.S0.S0.S0 {
+      :forbidden
+    }
+    S0.S2.S0.S0.S2 {
+      :forbidden
+    }
+    S0.S2.S0.S2.S0 {
+      :forbidden
+    }
+    S0.S2.S0.S2.S2 {
+      :forbidden
+    }
+    S0.S2.S2.S0.S0 {
+      :forbidden
+    }
+    S0.S2.S2.S0.S2 {
+      :forbidden
+    }
+    S0.S2.S2.S2.S0 {
+      :forbidden
+    }
+    S0.S2.S2.S2.S2 {
+      :forbidden
+    }
+    S1.S0.S0.S0.S1 {
+      :forbidden
+    }
+    S1.S0.S0.S1.S0 {
+      :forbidden
+    }
+    S1.S0.S0.S1.S2 {
+      :forbidden
+    }
+    S1.S0.S0.S2.S1 {
+      :forbidden
+    }
+    S1.S0.S1.S0.S0 {
+      :forbidden
+    }
+    S1.S0.S1.S0.S2 {
+      :forbidden
+    }
+    S1.S0.S1.S2.S0 {
+      :forbidden
+    }
+    S1.S0.S1.S2.S2 {
+      :forbidden
+    }
+    S1.S0.S2.S0.S1 {
+      :forbidden
+    }
+    S1.S0.S2.S1.S0 {
+      :forbidden
+    }
+    S1.S0.S2.S1.S2 {
+      :forbidden
+    }
+    S1.S0.S2.S2.S1 {
+      :forbidden
+    }
+    S1.S1.S0.S0.S0 {
+      :forbidden
+    }
+    S1.S1.S0.S0.S2 {
+      :forbidden
+    }
+    S1.S1.S0.S2.S0 {
+      :forbidden
+    }
+    S1.S1.S0.S2.S2 {
+      :forbidden
+    }
+    S1.S1.S2.S0.S0 {
+      :forbidden
+    }
+    S1.S1.S2.S0.S2 {
+      :forbidden
+    }
+    S1.S1.S2.S2.S0 {
+      :forbidden
+    }
+    S1.S1.S2.S2.S2 {
+      :forbidden
+    }
+    S1.S2.S0.S0.S1 {
+      :forbidden
+    }
+    S1.S2.S0.S1.S0 {
+      :forbidden
+    }
+    S1.S2.S0.S1.S2 {
+      :forbidden
+    }
+    S1.S2.S0.S2.S1 {
+      :forbidden
+    }
+    S1.S2.S1.S0.S0 {
+      :forbidden
+    }
+    S1.S2.S1.S0.S2 {
+      :forbidden
+    }
+    S1.S2.S1.S2.S0 {
+      :forbidden
+    }
+    S1.S2.S1.S2.S2 {
+      :forbidden
+    }
+    S1.S2.S2.S0.S1 {
+      :forbidden
+    }
+    S1.S2.S2.S1.S0 {
+      :forbidden
+    }
+    S1.S2.S2.S1.S2 {
+      :forbidden
+    }
+    S1.S2.S2.S2.S1 {
+      :forbidden
+    }
+  }
+  EDGES {
+    S0.S0.S0.S0.S0 -&gt; S1.S0.S0.S0.S1 {
+      request_BE_M4
+    }
+    S0.S0.S0.S0.S0 -&gt; S1.S0.S0.S1.S0 {
+      request_BE_M3
+    }
+    S0.S0.S0.S0.S0 -&gt; S1.S0.S1.S0.S0 {
+      request_BE_M2
+    }
+    S0.S0.S0.S0.S0 -&gt; S1.S1.S0.S0.S0 {
+      request_BE_M1
+    }
+    S0.S0.S0.S0.S2 -&gt; S0.S0.S0.S0.S0 {
+      unload_R2_M4
+    }
+    S0.S0.S0.S0.S2 -&gt; S1.S0.S0.S1.S2 {
+      request_BE_M3
+    }
+    S0.S0.S0.S0.S2 -&gt; S1.S0.S1.S0.S2 {
+      request_BE_M2
+    }
+    S0.S0.S0.S0.S2 -&gt; S1.S1.S0.S0.S2 {
+      request_BE_M1
+    }
+    S0.S0.S0.S2.S0 -&gt; S0.S0.S0.S0.S0 {
+      unload_R2_M3
+    }
+    S0.S0.S0.S2.S0 -&gt; S1.S0.S0.S2.S1 {
+      request_BE_M4
+    }
+    S0.S0.S0.S2.S0 -&gt; S1.S0.S1.S2.S0 {
+      request_BE_M2
+    }
+    S0.S0.S0.S2.S0 -&gt; S1.S1.S0.S2.S0 {
+      request_BE_M1
+    }
+    S0.S0.S0.S2.S2 -&gt; S0.S0.S0.S0.S2 {
+      unload_R2_M3
+    }
+    S0.S0.S0.S2.S2 -&gt; S0.S0.S0.S2.S0 {
+      unload_R2_M4
+    }
+    S0.S0.S0.S2.S2 -&gt; S1.S0.S1.S2.S2 {
+      request_BE_M2
+    }
+    S0.S0.S0.S2.S2 -&gt; S1.S1.S0.S2.S2 {
+      request_BE_M1
+    }
+    S0.S0.S2.S0.S0 -&gt; S0.S0.S0.S0.S0 {
+      unload_R1_M2
+    }
+    S0.S0.S2.S0.S0 -&gt; S1.S0.S2.S0.S1 {
+      request_BE_M4
+    }
+    S0.S0.S2.S0.S0 -&gt; S1.S0.S2.S1.S0 {
+      request_BE_M3
+    }
+    S0.S0.S2.S0.S0 -&gt; S1.S1.S2.S0.S0 {
+      request_BE_M1
+    }
+    S0.S0.S2.S0.S2 -&gt; S0.S0.S0.S0.S2 {
+      unload_R1_M2
+    }
+    S0.S0.S2.S0.S2 -&gt; S0.S0.S2.S0.S0 {
+      unload_R2_M4
+    }
+    S0.S0.S2.S0.S2 -&gt; S1.S0.S2.S1.S2 {
+      request_BE_M3
+    }
+    S0.S0.S2.S0.S2 -&gt; S1.S1.S2.S0.S2 {
+      request_BE_M1
+    }
+    S0.S0.S2.S2.S0 -&gt; S0.S0.S0.S2.S0 {
+      unload_R1_M2
+    }
+    S0.S0.S2.S2.S0 -&gt; S0.S0.S2.S0.S0 {
+      unload_R2_M3
+    }
+    S0.S0.S2.S2.S0 -&gt; S1.S0.S2.S2.S1 {
+      request_BE_M4
+    }
+    S0.S0.S2.S2.S0 -&gt; S1.S1.S2.S2.S0 {
+      request_BE_M1
+    }
+    S0.S0.S2.S2.S2 -&gt; S0.S0.S0.S2.S2 {
+      unload_R1_M2
+    }
+    S0.S0.S2.S2.S2 -&gt; S0.S0.S2.S0.S2 {
+      unload_R2_M3
+    }
+    S0.S0.S2.S2.S2 -&gt; S0.S0.S2.S2.S0 {
+      unload_R2_M4
+    }
+    S0.S0.S2.S2.S2 -&gt; S1.S1.S2.S2.S2 {
+      request_BE_M1
+    }
+    S0.S2.S0.S0.S0 -&gt; S0.S0.S0.S0.S0 {
+      unload_R1_M1
+    }
+    S0.S2.S0.S0.S0 -&gt; S1.S2.S0.S0.S1 {
+      request_BE_M4
+    }
+    S0.S2.S0.S0.S0 -&gt; S1.S2.S0.S1.S0 {
+      request_BE_M3
+    }
+    S0.S2.S0.S0.S0 -&gt; S1.S2.S1.S0.S0 {
+      request_BE_M2
+    }
+    S0.S2.S0.S0.S2 -&gt; S0.S0.S0.S0.S2 {
+      unload_R1_M1
+    }
+    S0.S2.S0.S0.S2 -&gt; S0.S2.S0.S0.S0 {
+      unload_R2_M4
+    }
+    S0.S2.S0.S0.S2 -&gt; S1.S2.S0.S1.S2 {
+      request_BE_M3
+    }
+    S0.S2.S0.S0.S2 -&gt; S1.S2.S1.S0.S2 {
+      request_BE_M2
+    }
+    S0.S2.S0.S2.S0 -&gt; S0.S0.S0.S2.S0 {
+      unload_R1_M1
+    }
+    S0.S2.S0.S2.S0 -&gt; S0.S2.S0.S0.S0 {
+      unload_R2_M3
+    }
+    S0.S2.S0.S2.S0 -&gt; S1.S2.S0.S2.S1 {
+      request_BE_M4
+    }
+    S0.S2.S0.S2.S0 -&gt; S1.S2.S1.S2.S0 {
+      request_BE_M2
+    }
+    S0.S2.S0.S2.S2 -&gt; S0.S0.S0.S2.S2 {
+      unload_R1_M1
+    }
+    S0.S2.S0.S2.S2 -&gt; S0.S2.S0.S0.S2 {
+      unload_R2_M3
+    }
+    S0.S2.S0.S2.S2 -&gt; S0.S2.S0.S2.S0 {
+      unload_R2_M4
+    }
+    S0.S2.S0.S2.S2 -&gt; S1.S2.S1.S2.S2 {
+      request_BE_M2
+    }
+    S0.S2.S2.S0.S0 -&gt; S0.S0.S2.S0.S0 {
+      unload_R1_M1
+    }
+    S0.S2.S2.S0.S0 -&gt; S0.S2.S0.S0.S0 {
+      unload_R1_M2
+    }
+    S0.S2.S2.S0.S0 -&gt; S1.S2.S2.S0.S1 {
+      request_BE_M4
+    }
+    S0.S2.S2.S0.S0 -&gt; S1.S2.S2.S1.S0 {
+      request_BE_M3
+    }
+    S0.S2.S2.S0.S2 -&gt; S0.S0.S2.S0.S2 {
+      unload_R1_M1
+    }
+    S0.S2.S2.S0.S2 -&gt; S0.S2.S0.S0.S2 {
+      unload_R1_M2
+    }
+    S0.S2.S2.S0.S2 -&gt; S0.S2.S2.S0.S0 {
+      unload_R2_M4
+    }
+    S0.S2.S2.S0.S2 -&gt; S1.S2.S2.S1.S2 {
+      request_BE_M3
+    }
+    S0.S2.S2.S2.S0 -&gt; S0.S0.S2.S2.S0 {
+      unload_R1_M1
+    }
+    S0.S2.S2.S2.S0 -&gt; S0.S2.S0.S2.S0 {
+      unload_R1_M2
+    }
+    S0.S2.S2.S2.S0 -&gt; S0.S2.S2.S0.S0 {
+      unload_R2_M3
+    }
+    S0.S2.S2.S2.S0 -&gt; S1.S2.S2.S2.S1 {
+      request_BE_M4
+    }
+    S0.S2.S2.S2.S2 -&gt; S0.S0.S2.S2.S2 {
+      unload_R1_M1
+    }
+    S0.S2.S2.S2.S2 -&gt; S0.S2.S0.S2.S2 {
+      unload_R1_M2
+    }
+    S0.S2.S2.S2.S2 -&gt; S0.S2.S2.S0.S2 {
+      unload_R2_M3
+    }
+    S0.S2.S2.S2.S2 -&gt; S0.S2.S2.S2.S0 {
+      unload_R2_M4
+    }
+    S1.S0.S0.S0.S1 -&gt; S0.S0.S0.S0.S2 {
+      move_R2_BE_M4
+    }
+    S1.S0.S0.S1.S0 -&gt; S0.S0.S0.S2.S0 {
+      move_R2_BE_M3
+    }
+    S1.S0.S0.S1.S2 -&gt; S0.S0.S0.S2.S2 {
+      move_R2_BE_M3
+    }
+    S1.S0.S0.S1.S2 -&gt; S1.S0.S0.S1.S0 {
+      unload_R2_M4
+    }
+    S1.S0.S0.S2.S1 -&gt; S0.S0.S0.S2.S2 {
+      move_R2_BE_M4
+    }
+    S1.S0.S0.S2.S1 -&gt; S1.S0.S0.S0.S1 {
+      unload_R2_M3
+    }
+    S1.S0.S1.S0.S0 -&gt; S0.S0.S2.S0.S0 {
+      move_R1_BE_M2
+    }
+    S1.S0.S1.S0.S2 -&gt; S0.S0.S2.S0.S2 {
+      move_R1_BE_M2
+    }
+    S1.S0.S1.S0.S2 -&gt; S1.S0.S1.S0.S0 {
+      unload_R2_M4
+    }
+    S1.S0.S1.S2.S0 -&gt; S0.S0.S2.S2.S0 {
+      move_R1_BE_M2
+    }
+    S1.S0.S1.S2.S0 -&gt; S1.S0.S1.S0.S0 {
+      unload_R2_M3
+    }
+    S1.S0.S1.S2.S2 -&gt; S0.S0.S2.S2.S2 {
+      move_R1_BE_M2
+    }
+    S1.S0.S1.S2.S2 -&gt; S1.S0.S1.S0.S2 {
+      unload_R2_M3
+    }
+    S1.S0.S1.S2.S2 -&gt; S1.S0.S1.S2.S0 {
+      unload_R2_M4
+    }
+    S1.S0.S2.S0.S1 -&gt; S0.S0.S2.S0.S2 {
+      move_R2_BE_M4
+    }
+    S1.S0.S2.S0.S1 -&gt; S1.S0.S0.S0.S1 {
+      unload_R1_M2
+    }
+    S1.S0.S2.S1.S0 -&gt; S0.S0.S2.S2.S0 {
+      move_R2_BE_M3
+    }
+    S1.S0.S2.S1.S0 -&gt; S1.S0.S0.S1.S0 {
+      unload_R1_M2
+    }
+    S1.S0.S2.S1.S2 -&gt; S0.S0.S2.S2.S2 {
+      move_R2_BE_M3
+    }
+    S1.S0.S2.S1.S2 -&gt; S1.S0.S0.S1.S2 {
+      unload_R1_M2
+    }
+    S1.S0.S2.S1.S2 -&gt; S1.S0.S2.S1.S0 {
+      unload_R2_M4
+    }
+    S1.S0.S2.S2.S1 -&gt; S0.S0.S2.S2.S2 {
+      move_R2_BE_M4
+    }
+    S1.S0.S2.S2.S1 -&gt; S1.S0.S0.S2.S1 {
+      unload_R1_M2
+    }
+    S1.S0.S2.S2.S1 -&gt; S1.S0.S2.S0.S1 {
+      unload_R2_M3
+    }
+    S1.S1.S0.S0.S0 -&gt; S0.S2.S0.S0.S0 {
+      move_R1_BE_M1
+    }
+    S1.S1.S0.S0.S2 -&gt; S0.S2.S0.S0.S2 {
+      move_R1_BE_M1
+    }
+    S1.S1.S0.S0.S2 -&gt; S1.S1.S0.S0.S0 {
+      unload_R2_M4
+    }
+    S1.S1.S0.S2.S0 -&gt; S0.S2.S0.S2.S0 {
+      move_R1_BE_M1
+    }
+    S1.S1.S0.S2.S0 -&gt; S1.S1.S0.S0.S0 {
+      unload_R2_M3
+    }
+    S1.S1.S0.S2.S2 -&gt; S0.S2.S0.S2.S2 {
+      move_R1_BE_M1
+    }
+    S1.S1.S0.S2.S2 -&gt; S1.S1.S0.S0.S2 {
+      unload_R2_M3
+    }
+    S1.S1.S0.S2.S2 -&gt; S1.S1.S0.S2.S0 {
+      unload_R2_M4
+    }
+    S1.S1.S2.S0.S0 -&gt; S0.S2.S2.S0.S0 {
+      move_R1_BE_M1
+    }
+    S1.S1.S2.S0.S0 -&gt; S1.S1.S0.S0.S0 {
+      unload_R1_M2
+    }
+    S1.S1.S2.S0.S2 -&gt; S0.S2.S2.S0.S2 {
+      move_R1_BE_M1
+    }
+    S1.S1.S2.S0.S2 -&gt; S1.S1.S0.S0.S2 {
+      unload_R1_M2
+    }
+    S1.S1.S2.S0.S2 -&gt; S1.S1.S2.S0.S0 {
+      unload_R2_M4
+    }
+    S1.S1.S2.S2.S0 -&gt; S0.S2.S2.S2.S0 {
+      move_R1_BE_M1
+    }
+    S1.S1.S2.S2.S0 -&gt; S1.S1.S0.S2.S0 {
+      unload_R1_M2
+    }
+    S1.S1.S2.S2.S0 -&gt; S1.S1.S2.S0.S0 {
+      unload_R2_M3
+    }
+    S1.S1.S2.S2.S2 -&gt; S0.S2.S2.S2.S2 {
+      move_R1_BE_M1
+    }
+    S1.S1.S2.S2.S2 -&gt; S1.S1.S0.S2.S2 {
+      unload_R1_M2
+    }
+    S1.S1.S2.S2.S2 -&gt; S1.S1.S2.S0.S2 {
+      unload_R2_M3
+    }
+    S1.S1.S2.S2.S2 -&gt; S1.S1.S2.S2.S0 {
+      unload_R2_M4
+    }
+    S1.S2.S0.S0.S1 -&gt; S0.S2.S0.S0.S2 {
+      move_R2_BE_M4
+    }
+    S1.S2.S0.S0.S1 -&gt; S1.S0.S0.S0.S1 {
+      unload_R1_M1
+    }
+    S1.S2.S0.S1.S0 -&gt; S0.S2.S0.S2.S0 {
+      move_R2_BE_M3
+    }
+    S1.S2.S0.S1.S0 -&gt; S1.S0.S0.S1.S0 {
+      unload_R1_M1
+    }
+    S1.S2.S0.S1.S2 -&gt; S0.S2.S0.S2.S2 {
+      move_R2_BE_M3
+    }
+    S1.S2.S0.S1.S2 -&gt; S1.S0.S0.S1.S2 {
+      unload_R1_M1
+    }
+    S1.S2.S0.S1.S2 -&gt; S1.S2.S0.S1.S0 {
+      unload_R2_M4
+    }
+    S1.S2.S0.S2.S1 -&gt; S0.S2.S0.S2.S2 {
+      move_R2_BE_M4
+    }
+    S1.S2.S0.S2.S1 -&gt; S1.S0.S0.S2.S1 {
+      unload_R1_M1
+    }
+    S1.S2.S0.S2.S1 -&gt; S1.S2.S0.S0.S1 {
+      unload_R2_M3
+    }
+    S1.S2.S1.S0.S0 -&gt; S0.S2.S2.S0.S0 {
+      move_R1_BE_M2
+    }
+    S1.S2.S1.S0.S0 -&gt; S1.S0.S1.S0.S0 {
+      unload_R1_M1
+    }
+    S1.S2.S1.S0.S2 -&gt; S0.S2.S2.S0.S2 {
+      move_R1_BE_M2
+    }
+    S1.S2.S1.S0.S2 -&gt; S1.S0.S1.S0.S2 {
+      unload_R1_M1
+    }
+    S1.S2.S1.S0.S2 -&gt; S1.S2.S1.S0.S0 {
+      unload_R2_M4
+    }
+    S1.S2.S1.S2.S0 -&gt; S0.S2.S2.S2.S0 {
+      move_R1_BE_M2
+    }
+    S1.S2.S1.S2.S0 -&gt; S1.S0.S1.S2.S0 {
+      unload_R1_M1
+    }
+    S1.S2.S1.S2.S0 -&gt; S1.S2.S1.S0.S0 {
+      unload_R2_M3
+    }
+    S1.S2.S1.S2.S2 -&gt; S0.S2.S2.S2.S2 {
+      move_R1_BE_M2
+    }
+    S1.S2.S1.S2.S2 -&gt; S1.S0.S1.S2.S2 {
+      unload_R1_M1
+    }
+    S1.S2.S1.S2.S2 -&gt; S1.S2.S1.S0.S2 {
+      unload_R2_M3
+    }
+    S1.S2.S1.S2.S2 -&gt; S1.S2.S1.S2.S0 {
+      unload_R2_M4
+    }
+    S1.S2.S2.S0.S1 -&gt; S0.S2.S2.S0.S2 {
+      move_R2_BE_M4
+    }
+    S1.S2.S2.S0.S1 -&gt; S1.S0.S2.S0.S1 {
+      unload_R1_M1
+    }
+    S1.S2.S2.S0.S1 -&gt; S1.S2.S0.S0.S1 {
+      unload_R1_M2
+    }
+    S1.S2.S2.S1.S0 -&gt; S0.S2.S2.S2.S0 {
+      move_R2_BE_M3
+    }
+    S1.S2.S2.S1.S0 -&gt; S1.S0.S2.S1.S0 {
+      unload_R1_M1
+    }
+    S1.S2.S2.S1.S0 -&gt; S1.S2.S0.S1.S0 {
+      unload_R1_M2
+    }
+    S1.S2.S2.S1.S2 -&gt; S0.S2.S2.S2.S2 {
+      move_R2_BE_M3
+    }
+    S1.S2.S2.S1.S2 -&gt; S1.S0.S2.S1.S2 {
+      unload_R1_M1
+    }
+    S1.S2.S2.S1.S2 -&gt; S1.S2.S0.S1.S2 {
+      unload_R1_M2
+    }
+    S1.S2.S2.S1.S2 -&gt; S1.S2.S2.S1.S0 {
+      unload_R2_M4
+    }
+    S1.S2.S2.S2.S1 -&gt; S0.S2.S2.S2.S2 {
+      move_R2_BE_M4
+    }
+    S1.S2.S2.S2.S1 -&gt; S1.S0.S2.S2.S1 {
+      unload_R1_M1
+    }
+    S1.S2.S2.S2.S1 -&gt; S1.S2.S0.S2.S1 {
+      unload_R1_M2
+    }
+    S1.S2.S2.S2.S1 -&gt; S1.S2.S2.S0.S1 {
+      unload_R2_M3
+    }
+  }
+}
+</B:Comment>
+<EventDeclList>
+<EventDecl Kind="CONTROLLABLE" Name="move_R1_BE_M1"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R1_BE_M2"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R2_BE_M3"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R2_BE_M4"/>
+<EventDecl Kind="CONTROLLABLE" Name="wait_R1"/>
+<EventDecl Kind="CONTROLLABLE" Name="wait_R2"/>
+<EventDecl Kind="CONTROLLABLE" Name="wait_R3"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M1"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M2"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M3"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M4"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R1_M1"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R1_M2"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R2_M3"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R2_M4"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="robot_reset_R1"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="robot_reset_R2"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="robot_fault_R1"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="robot_fault_R2"/>
+<EventDecl Kind="PROPOSITION" Name=":accepting"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R3_as_R1_BE_M1"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R3_as_R1_BE_M2"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R3_as_R2_BE_M3"/>
+<EventDecl Kind="CONTROLLABLE" Name="move_R3_as_R2_BE_M4"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R3_as_R1_M1"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R3_as_R1_M2"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R3_as_R2_M3"/>
+<EventDecl Kind="CONTROLLABLE" Name="unload_R3_as_R2_M4"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M1_R3"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M2_R3"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M4_R3"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="request_BE_M3_R3"/>
+</EventDeclList>
+<ComponentList>
+<SimpleComponent Kind="PLANT" Name="robo2">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S2">
+<PointGeometry>
+<Point X="112" Y="128"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="201" Y="57"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="54" Y="214"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="263" Y="114"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S7">
+<PointGeometry>
+<Point X="113" Y="272"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="182" Y="187"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="5"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="153" Y="75"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-52" Y="15"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="66" Y="169"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="move_R2_BE_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="17" Y="-13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="244" Y="73"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="move_R2_BE_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-30" Y="-22"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="72" Y="255"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R2_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-9" Y="14"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="194" Y="113"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S7" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R2_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="3"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="106" Y="207"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="112" Y="207"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="198" Y="116"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S7" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="154" Y="245"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="238" Y="156"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S8" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="137" Y="170"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="157" Y="145"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="PLANT" Name="robo1">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S2">
+<PointGeometry>
+<Point X="146" Y="149"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="216" Y="57"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="58" Y="225"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="281" Y="118"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S7">
+<PointGeometry>
+<Point X="123" Y="287"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="193" Y="193"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M1"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="5"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="173" Y="86"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-61" Y="-18"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="85" Y="181"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="move_R1_BE_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="261" Y="75"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="move_R1_BE_M2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="79" Y="269"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R1_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="219" Y="126"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S7" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R1_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-1" Y="23"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="127" Y="224"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+<LabelGeometry Anchor="NW">
+<Point X="-28" Y="-4"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="120" Y="217"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="211" Y="119"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S7" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="165" Y="256"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="254" Y="162"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S8" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="162" Y="179"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="176" Y="163"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="SPEC" Name="maq1">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S0">
+<PointGeometry>
+<Point X="136" Y="159"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="268" Y="117"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="199" Y="61"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="186" Y="199"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="55" Y="241"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="124" Y="297"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S0" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M1"/>
+<LabelGeometry Anchor="NW">
+<Point X="-53" Y="-16"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="207" Y="129"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="move_R1_BE_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="245" Y="75"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R1_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="158" Y="94"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="199" Y="123"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="244" Y="162"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S0" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="167" Y="170"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M1_R3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="115" Y="228"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R1_BE_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="78" Y="283"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R1_M1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="163" Y="264"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="77" Y="195"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="154" Y="186"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="123" Y="234"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="SPEC" Name="maq2">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S0">
+<PointGeometry>
+<Point X="139" Y="156"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="205" Y="61"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="273" Y="119"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="188" Y="198"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="55" Y="236"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="122" Y="294"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S0" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-33" Y="13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="164" Y="92"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="move_R1_BE_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-44" Y="8"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="251" Y="76"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R1_M2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="211" Y="129"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S0" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="170" Y="168"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="203" Y="123"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="247" Y="163"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M2_R3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="116" Y="224"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R1_BE_M2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="77" Y="278"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R1_M2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="163" Y="262"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="156" Y="184"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="79" Y="190"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="123" Y="231"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="SPEC" Name="maq3">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S0">
+<PointGeometry>
+<Point X="139" Y="156"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="205" Y="61"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="273" Y="119"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="188" Y="198"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="55" Y="236"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="122" Y="294"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S0" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-33" Y="13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="164" Y="92"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="move_R2_BE_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-44" Y="8"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="251" Y="76"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R2_M3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="211" Y="129"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S0" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="170" Y="168"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="203" Y="123"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="247" Y="163"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M3_R3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="116" Y="224"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R2_BE_M3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="77" Y="278"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R2_M3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="163" Y="262"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="156" Y="184"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="79" Y="190"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="123" Y="231"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="SPEC" Name="maq4">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S0">
+<PointGeometry>
+<Point X="139" Y="156"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="205" Y="61"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="273" Y="119"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="188" Y="198"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="55" Y="236"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="122" Y="294"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S0" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-33" Y="13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="164" Y="92"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="move_R2_BE_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-44" Y="8"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="251" Y="76"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R2_M4"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="211" Y="129"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S0" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="170" Y="168"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="203" Y="123"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="247" Y="163"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M4_R3"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="116" Y="224"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R2_BE_M4"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="77" Y="278"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R2_M4"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="163" Y="262"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="156" Y="184"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="79" Y="190"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="123" Y="231"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="PLANT" Name="robo_3_pssibility">
+<Graph>
+<NodeList>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="377" Y="365"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="432" Y="268"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="285" Y="429"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="458" Y="324"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S7">
+<PointGeometry>
+<Point X="342" Y="450"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Initial="true" Name="S0">
+<PointGeometry>
+<Point X="276" Y="274"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="176" Y="183"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="209" Y="99"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="95" Y="224"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S9">
+<PointGeometry>
+<Point X="267" Y="119"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S10">
+<PointGeometry>
+<Point X="121" Y="279"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M1_R3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="5"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="412" Y="314"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M2_R3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-52" Y="15"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="328" Y="406"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R1_BE_M1"/>
+<LabelGeometry Anchor="NW">
+<Point X="17" Y="-13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="461" Y="291"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S5" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R1_BE_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-30" Y="-22"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="311" Y="456"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R1_M1"/>
+<LabelGeometry Anchor="NW">
+<Point X="-9" Y="14"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="431" Y="353"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S7" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R1_M2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="3"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="369" Y="421"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M3_R3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="4"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="182" Y="128"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="request_BE_M4_R3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-52" Y="15"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="122" Y="194"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S9">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R2_BE_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="17" Y="-13"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="240" Y="92"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S8" Target="S10">
+<LabelBlock>
+<SimpleIdentifier Name="move_R3_as_R2_BE_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-137" Y="-8"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="91" Y="255"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S9" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R2_M3"/>
+<LabelGeometry Anchor="NW">
+<Point X="-9" Y="14"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="223" Y="142"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S10" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="unload_R3_as_R2_M4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-42" Y="3"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="140" Y="234"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S10" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="193" Y="285"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S1" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="229" Y="216"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S9" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="280" Y="190"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S4" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S8" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R2"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S5" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="272" Y="358"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S2" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="323" Y="332"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S3" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="359" Y="262"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S6" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S7" Target="S0">
+<LabelBlock>
+<SimpleIdentifier Name="robot_reset_R1"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S0" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R2"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="214" Y="233"/>
+</SplineGeometry>
+</Edge>
+<Edge Source="S0" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="robot_fault_R1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="338" Y="315"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+</ComponentList>
+</Module>
