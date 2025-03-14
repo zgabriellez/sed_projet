@@ -57,7 +57,7 @@ A implementação do sistema foi realizada utilizando **autômatos finitos** par
 - Java | Oracle
 
 ## Apresentação do Projeto
-Assista à apresentação do projeto no YouTube: [Link para o vídeo]
+Assista à apresentação do projeto no YouTube: [Link para o vídeo](https://www.youtube.com/watch?v=hrviLYDBnz0)
 
 ## Relatório
 O relatório completo do projeto está disponível neste repositório como **Relatório_SED.pdf**.
